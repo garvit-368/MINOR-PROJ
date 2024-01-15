@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    /* Set background color to match the image */
+    background-color: #f0f0f0;
+    
+  }
+  
+  header {
+    /* Adjust header styling for logo and spacing */
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  main {
+    /* Set main content width and margins for spacing */
+    width: 400px; /* Adjust width to match the image content */
+    margin: 0 auto;
+    padding: 20px;
+    /* Set background color to match the image */
+    background-color: #fff;
+  }
+  
+  /* Form styling */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666; /* Adjust text color to match the image */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Adjust border color to match the image */
+    margin-bottom: 10px;
+  }
+  
+  .remember-me {
+    /* Adjust checkbox and label positioning */
+    margin-bottom: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000; /* Adjust text color to match the image */
+  }
+  
+  button {
+    /* Adjust button styling for colors, font, and size */
+    background-color: #ef9a9a; /* Adjust background color to match the image */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  footer {
+    /* Set footer text color and alignment */
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  /* Responsiveness with Media Queries */
+  @media (max-width: 768px) {
+    main {
+      width: 100%;
+    }
+  
+    /* Adjust form elements and spacing for smaller screens */
+    input[type="text"],
+    input[type="password"] {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  
