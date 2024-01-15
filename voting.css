@@ -47,7 +47,7 @@ body {
   
   button {
     /* Adjust button styling for colors, font, and size */
-    background-color: #ef9a9a; /* Adjust background color to match the image */
+    background-color: green; /* Adjust background color to match the image */
     color: #fff;
     padding: 10px 20px;
     border: none;
