@@ -7,21 +7,38 @@
   <link rel="stylesheet" href="voting.css"> 
 </head>
 <body>
-  <header>
-    <img src="Voter.png" alt="Voting Logo"> </header>
+
+    <nav class = "nac">
+
+
+    </nav>
+  <!-- heading -->  
+  <h2 class = "vot"> Voting Portal </h2>
+  <br>
+  <h3 class = " wel"> Welcome </h3>
+    
+    <!--form table-->
   <main>
     <h2>Login</h2>
     <form action="#" method="post">
       <label for="username">Username*:</label>
-      <input type="text" id="username" name="username">
+      <input type="text" id="username" placeholder="example@gmail.com" name="Username">
       <label for="password">Password*:</label>
-      <input type="password" id="password" name="password">
-      <div class="remember-me">
-        <input type="checkbox" id="remember-me">
+      <input type="password" id="password" placeholder="123456789" name="Password">
+      <br><div class="remember-me">
+        <br><input type="checkbox" id="remember-me">
         <label for="remember-me">Remember me</label>
       </div>
+      
+      <!--forgot password--> 
       <a href="forgotpassword.html">Forgot password?</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <button type="submit">LOGIN</button>
+
+      <!--registration--> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="registration.html"> Register Now!</a>
+      
     </form>
     <footer>
       <p>&copy;2009-2024 Voting Portal. All rights reserved.</p>
