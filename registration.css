@@ -30,13 +30,33 @@ body {
     font-size: 16px;
   }
 
-  input[type="full name"] {
+  input[type="first-Name"]
+     {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
     font-size: 16px;
   }
+
+  input[type="middle-name"]
+  {
+ width: 100%;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 3px;
+ font-size: 16px;
+}
+
+input[type="last-name"]
+{
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;
+font-size: 16px;
+}
+
 
   input[type="password"] {
     width: 100%;
