@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+fieldset {
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.legend {
+	font-weight: bold;
+}
+label {
+	margin-right: 10px;
+}
+
 body {
     font-family: sans-serif;
     background-color: #f0f0f0;

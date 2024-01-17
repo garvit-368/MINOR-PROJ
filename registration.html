@@ -20,17 +20,17 @@
         <br><label for="last-name">Last Name</label>
         <input type="last-name" id="last-name" name="last-name" required><br>
         <!--gender-->
-        <br><label for="gender">Gender:</label>
-            <select name="gender">
-                <option value="">Please select one…</option>
-                <option value="female">Female</option>
-                <option value="male">Male</option>
-                <option value="non-binary">Non-Binary</option>
-                <option value="other">Other</option>
-                <option value="Prefer not to answer">Perfer not to Answer</option>
-            </select><br>
+        <br>
+        <span class="legend">Gender</span>
+        <fieldset id="setA">
+            <input id="setA_male" type="checkbox">
+                <label for="setA_male">Male</label>
+            <input id="setA_female" type="checkbox">
+                <label for="setA_female">Female</label>
+        </fieldset>
+        
         <!--email-->
-        <br><label for="Email">Email*:</label>
+        <label for="Email">Email*:</label>
         <input type="Email" id="Email" placeholder="example@gmail.com" name="email" required><br>
         <!-- password-->
         <br><label for="password">Password*:</label>
